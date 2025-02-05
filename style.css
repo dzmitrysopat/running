@@ -38,10 +38,23 @@ thead{
     border-bottom: 1px solid #ccc;
 }
 
+th{
+    color: #fff;
+    background-color: #373737 !important;
+}
+
 th, td {
     /* border: 1px solid #ccc; */
     padding: 8px 5px;
     text-align: center;
+    }
+
+    /* tr{
+        border-bottom: 1px solid #ccc;
+    } */
+
+    tr:last-child{
+        border-bottom: none;
     }
 
 th {
@@ -49,7 +62,7 @@ th {
     }
 
 tr:nth-child(even){
-    background: #eff6ff;
+    background: #f5f5f5;
 }
 
 /* td:nth-child(2){
