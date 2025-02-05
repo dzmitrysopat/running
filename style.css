@@ -29,6 +29,11 @@ input{
     padding: 5px 0px 5px 10px;
 }
 
+input[type="file"]{
+    height: inherit;
+    max-width: 47vw;
+}
+
 thead{
     border-bottom: 1px solid #ccc;
 }
