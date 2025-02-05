@@ -15,7 +15,7 @@ body {
 }
 
 table {
-    width: 100%;
+    width: 95%;
     max-width: 600px;
     margin: 0 auto;
     border-collapse: collapse;
@@ -64,7 +64,7 @@ tr:nth-child(even){
 }
 
 button {
-    /* width: 99vw; */
+    width: 47vw;
     margin: 0 auto;
     padding: 10px 20px;
     font-size: 16px;
