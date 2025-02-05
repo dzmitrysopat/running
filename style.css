@@ -5,11 +5,11 @@
 }
 
 body {
+    margin: 0 auto;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
     width: fit-content;
     gap: 15px;
 }
@@ -57,6 +57,7 @@ tr:nth-child(even){
     } */
 
 .btns{
+    align-self: center;
     width: inherit;
     display: flex;
     gap: 15px;
