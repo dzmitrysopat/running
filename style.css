@@ -49,7 +49,7 @@ th {
     }
 
 tr:nth-child(even){
-    background: #f4f4f4;
+    background: #eff6ff;
 }
 
 /* td:nth-child(2){
