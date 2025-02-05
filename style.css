@@ -58,6 +58,8 @@ th, td {
     }
 
 th {
+    padding-left: 10px;
+    text-align: left;
     background: #f4f4f4;
     }
 
@@ -110,7 +112,14 @@ button:hover {
 }
 
 .delBtn{
-    background-color: #d32929;
+    width: auto;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: #d3292994;
+}
+
+.delBtn:not(:last-child){
+    display: none;
 }
 
 .delBtn:hover{

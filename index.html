@@ -15,14 +15,14 @@
 <tr>
 <th>Дата</th>
 <th>Время (мм:сс)</th>
-<th>Расстояние</th>
+<th colspan="2">Расстояние</th>
 </tr>
 </thead>
 <tbody></tbody>
 </table>
 <div class="btns">
     <button onclick="addRow()" class="addBtn">Добавить строку</button>
-    <button onclick="removeLastRow()" class="delBtn">Удалить строку</button> 
+    <!-- <button onclick="removeLastRow()" class="delBtn">Удалить строку</button>  -->
     <button onclick="saveToFile()">Сохранить в JSON</button>
     <!-- <label for="file-input" class="button">Загрузить JSON</label> -->
     <input type="file" id="file-input" accept=".json" onchange="loadFromFile(event)">   
