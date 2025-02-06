@@ -104,13 +104,6 @@ button:hover {
 }
 
 .addBtn{
-    text-align: center;
-    margin-right: 5px;
-    font-weight: 900;
-    font-size: 18px;
-    width: auto;
-    padding: 3px 10px;
-    border-radius: 50%;
     background-color: #00b35a;
 }
 
@@ -119,20 +112,11 @@ button:hover {
 }
 
 .delBtn{
-    font-weight: 900;
-    font-size: 18px;
-    width: auto;
-    padding: 3px 13px;
-    border-radius: 50%;
-    background-color: #d3292994;
+    background-color: #d32929e0;
 }
 
 tfoot > tr > td{
     text-align: end;
-}
-
-.delBtn:not(:last-child){
-    display: none;
 }
 
 .delBtn:hover{
