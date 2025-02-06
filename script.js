@@ -13,7 +13,7 @@ function addRow(date = "", time = "", distance = "") {
         <td><input type="date" value="${date}"></td>
         <td><input type="text" placeholder="мм:сс" value="${time}" oninput="formatTime(this)"></td>
         <td><input type="number" min="0" step="0.01" value="${distance}" oninput="updateHighlighting()"></td>
-        <td><button onclick="removeLastRow()" class="delBtn">x</button> </td>
+        <td><button onclick="removeLastRow()" class="delBtn">-</button> </td>
     `;
 
     tableBody.appendChild(row);
